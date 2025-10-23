@@ -1,0 +1,61 @@
+# Bootstrap Registration Website
+
+This project is a responsive registration webpage built using **Bootstrap 5**. It demonstrates the use of Bootstrap utilities, components, forms, tables, images, and responsive navigation.
+
+---
+
+## Features
+
+- **Responsive Navigation Bar:** Collapses into a hamburger menu on smaller screens.
+- **Registration Form:**  
+  - Fields for First Name, Last Name, Email, Password, and a Terms & Conditions checkbox.  
+  - First Name and Last Name fields positioned side-by-side using Bootstrap grid.  
+  - Validation on Email, Password, and checkbox inputs.  
+  - Submit button styled with Bootstrap’s `btn-success`.
+- **User Data Table:**  
+  - Hard-coded sample data with striped and hoverable rows for readability.  
+  - Wrapped inside a responsive container to ensure horizontal scrolling on small devices.
+- **Image Section:**  
+  - A full-width responsive background image (`img-fluid` and `container-fluid`).  
+  - A circular portrait image below the main image (`rounded-circle`).
+- **Buttons:**  
+  - One button always visible.  
+  - One button hidden on small screens using responsive utility classes (`d-none d-md-inline-block`).
+
+---
+
+## How to Use
+
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
+3. Use the form to test validation (note: form does not actually submit data).
+4. Explore the responsive features by resizing your browser window or testing on different devices.
+
+---
+
+## Technologies Used
+
+- [Bootstrap 5](https://getbootstrap.com/)
+- HTML5
+- CSS3
+- JavaScript (for form validation)
+
+---
+
+## Live Demo
+
+Visit the GitHub Pages URL (once published):  
+`https://your-username.github.io/Bootstrap-registration-website/`
+
+---
+
+## Author
+
+Andrew Shore  
+[GitHub Profile](https://github.com/andrewshore715-web)
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
